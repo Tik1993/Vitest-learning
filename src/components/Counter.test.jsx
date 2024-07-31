@@ -10,5 +10,5 @@ test("increments counter", () => {
 
   expect(count).toHaveTextContent("Count: 0");
   fireEvent.click(button);
-  expect(count).toHaveTextContent("Count: -1");
+  expect(count).toHaveTextContent("Count: 1");
 });
